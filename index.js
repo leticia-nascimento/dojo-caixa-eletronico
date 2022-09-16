@@ -1,5 +1,14 @@
 const withdraw = (value) => {
-  return `${value}`;
+  const bills = {
+    100: 0,
+    50: 0,
+    20: 0,
+    10: 0,
+  };
+
+  // TODO calculate minimum amount of bills for the given value
+
+  return bills;
 };
 
 console.log("withdraw", withdraw(42));
