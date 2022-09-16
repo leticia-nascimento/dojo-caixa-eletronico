@@ -1,10 +1,13 @@
 const { withdraw } = require(".");
 
 describe("withdraw", () => {
-  it("should withdraw R$20", () => {
+  it("should withdraw R$80", () => {
     const expectedValue = withdraw(80);
-    expect(expectedValue).toBe(
-      "Entregar 1 nota de R$50,00 1 nota de R$ 20,00 e 1 nota de R$ 10,00."
-    );
+    expect(expectedValue).toBe({
+      100: 0,
+      50: 1,
+      20: 1,
+      10: 1,
+    });
   });
 });
