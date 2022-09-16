@@ -1,7 +1,7 @@
-const sack = (value) => {
+const withdraw = (value) => {
   return `${value}`;
 };
 
-console.log("sack", sack(42));
+console.log("withdraw", withdraw(42));
 
-module.exports = { sack };
+module.exports = { withdraw };
