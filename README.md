@@ -11,4 +11,16 @@ Desenvolva um programa que simule a entrega de notas quando um cliente efetuar u
 ### Exemplos:
 
 - Valor do Saque: R$ 30,00 – Resultado Esperado: Entregar 1 nota de R$20,00 e 1 nota de R$ 10,00.
+  ```
+  100: 0,
+  50: 0,
+  20: 1,
+  10: 1,
+  ```
 - Valor do Saque: R$ 80,00 – Resultado Esperado: Entregar 1 nota de R$50,00 1 nota de R$ 20,00 e 1 nota de R$ 10,00."
+  ```
+  100: 0,
+  50: 1,
+  20: 1,
+  10: 1,
+  ```

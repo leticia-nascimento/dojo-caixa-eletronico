@@ -11,6 +11,4 @@ const withdraw = (value) => {
   return bills;
 };
 
-console.log("withdraw", withdraw(42));
-
 module.exports = { withdraw };
